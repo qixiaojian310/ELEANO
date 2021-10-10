@@ -1,0 +1,96 @@
+body {
+    font-family: Garamond;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 60px;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 87%;
+    border: none;
+    border-bottom: 3px solid #009688;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+#buttonInput {
+    padding: 3px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.userText {
+    width: 20%;
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    float: right;
+    line-height: 30px;
+}
+
+.userText span {
+    font-size: small;
+    word-break: break-all;
+    white-space: pre-wrap;
+    width: 100%;
+    float: right;
+    background-color: #009688;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0,0,0);
+}
+
+.botText {
+    width: 20%;
+    color: #000000;
+    font-family: monospace;
+    font-size: 17px;
+    float: left;
+    line-height: 30px;
+
+}
+
+.botText span {
+    font-size: small;
+    word-break: break-all;
+    white-space: pre-wrap;
+    float: left;
+    width: 100%;
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0,0,0);
+}
+
+#tidbit {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 300px;
+}
